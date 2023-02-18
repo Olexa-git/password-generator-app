@@ -18,7 +18,7 @@ Mobile - 375px;
 ### Links
 
 - Solution URL: https://github.com/Olexa-git/password-generator-app
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://olexa-git.github.io/password-generator-app/
 
 ## My process
 
