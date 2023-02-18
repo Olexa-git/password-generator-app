@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script defer type="text/javascript" src="script/script.js"></script>
+  <title>Frontend Mentor | Password generator app</title>
+</head>
+<body>
+  <header>Password Generator</header>
+  <section>
+    <div class="password_box">
+      <p class="password" id="password">PA$$W0rD:)!</p>
+      <p class="copied_sign invisible" id="copied">COPIED</p>
+      <img id="copy_btn" alt="copy icon" src="images/icon-copy.svg">
+    </div>
+    <div class="generator">
+      <div class="char_length_box">
+        <p class="char_lenght_sign">Character Length</p>
+        <p id="char_number_sign" class="char_number_sign">6</p>
+      </div>
+      <div class="slider_box">
+        <div id="slider_ball" class="slider_ball"></div>
+        <div id="slider" class="slider"></div>
+      </div>
+      <ul class="password_parameters">
+        <li>
+          <div id="upper_checkbox" class="checkbox_empty"><img alt="checked checkbox" src="images/icon-check.svg"></div>
+          <p>Include Uppercase Letters</p>
+        </li>
+        <li>
+          <div id="lower_checkbox"class="checkbox_empty"><img alt="checked checkbox" src="images/icon-check.svg"></div>
+          <p>Include Lowercase Letters</p>
+        </li>
+        <li>
+          <div id="number_checkbox" class="checkbox_empty"><img alt="checked checkbox" src="images/icon-check.svg"></div>
+          <p>Include Numbers</p>
+        </li>
+        <li>
+          <div id="symbol_checkbox" class="checkbox_empty"><img alt="checked checkbox" src="images/icon-check.svg"></div>
+          <p>Include Symbols</p>
+        </li>
+      </ul>
+      <div class="pass_strength_box">
+        <p class="strength_sign">STRENGTH</p>
+        <p id="strength_rate" class="strength_rate">MEDIUM</p>
+        <ul id="strength_indicator" class="strength_indicator">
+          <li class="strength_indicator_box"></li>
+          <li class="strength_indicator_box"></li>
+          <li class="strength_indicator_box"></li>
+          <li class="strength_indicator_box"></li>
+        </ul>
+      </div>
+      <div id="generate_btn" class="generate_btn">
+        <p>GENERATE</p>
+        <img alt="left arrow" src="images/icon-arrow-right.svg">
+      </div>
+    </div>
+  </section>
+</body>
+</html>
